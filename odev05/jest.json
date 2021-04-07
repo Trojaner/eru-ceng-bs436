@@ -1,0 +1,32 @@
+{
+    "rootDir": ".",
+    "coverageDirectory": "<rootDir>/tests/__coverage__/",
+    "collectCoverageFrom": [
+        "src/**/*.(js|ts|jsx|tsx)"
+    ],
+    "setupFilesAfterEnv": [
+        "<rootDir>/tests/jest-setup.ts"
+    ],
+    "roots": [
+        "<rootDir>/src/",
+        "<rootDir>/tests/"
+    ],
+    "moduleFileExtensions": [
+        "ts",
+        "tsx",
+        "js",
+        "jsx"
+    ],
+    "testEnvironment": "node",
+    "transformIgnorePatterns": [
+        "/node_modules/"
+    ],
+    "testRegex": "/tests/.*\\.(ts|js|tsx|jsx)$",
+    "moduleDirectories": [
+        "node_modules"
+    ],
+    "globals": {
+        "DEVELOPMENT": false,
+        "FAKE_SERVER": false
+    }
+}

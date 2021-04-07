@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],  
+  "rules": {
+    "prettier": true,      
+    "typedef": false,
+    "no-string-literal": false,
+    "semicolon": [true, "always"],
+    "no-console": false,
+    "ordered-imports": true
+  }
+}
