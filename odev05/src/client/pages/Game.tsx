@@ -61,8 +61,8 @@ function Game(props: IGameProps = defaultProps) {
         }
     };
 
-    let gameResult;
-    let failedMessage;
+    let gameResult: JSX.Element;
+    let failedMessage: JSX.Element;
 
     if (failedAttempts === 1) {
         failedMessage = <p>Yanlis secenek ama bir hakkin daha var.</p>;
